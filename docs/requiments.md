@@ -207,3 +207,6 @@ Source code được chấp nhận khi:
 - Không tạo hoặc ghi đè output khi input không hợp lệ.
 - Có JavaDoc tiếng Anh cho API công khai.
 - Hỗ trợ dữ liệu tiếng Việt và Unicode.
+
+Ghi chú:
+Giữ JSON output dạng summary, cho phép tự viết JSON parser tối giản trong Java Standard Library, và quy định input lỗi sẽ in hướng dẫn rồi return mà không tạo output.
